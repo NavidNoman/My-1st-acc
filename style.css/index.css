@@ -6,33 +6,69 @@
 }
 
 
-/* .font2 {
+.font2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: auto;
   font-style: normal;
-} */
+}
 
+/* common style */
 .btn{
-    background-color: #4E47FF;
+    background-color:#4E47FF;
+    font-weight: bold;
+    color: white;
+    padding:12px 36px;
     border-radius: 10px;
     border-style: none;
-    padding: 12px 36px;
-    font-size: 16px;
-    font-weight: bold;
-    color: aliceblue;
+   
+}  
+.dark2{
+    color:#252432 ;
 }
 
-nav h2{
-font-size: 34px;
-color:#4E47FF;
-}
+/* nav style */
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px 50px 0px 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 150px 0 150px;
 }
-nav li{
+nav li {
     list-style: none; 
+    font-size: 16px;
+  
+}
+.banner li{
+    list-style: none;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.banner{
+    text-align: center;
+    padding:0 200px 0 260px ;
+}
+.banner h1{
+    font-size: 65px;
+    color:#252432;
+}
+
+section li{
+    list-style: none;
+}
+/* .frame{
+    display: flex;
+   
+} */
+.frame-1st{
+     justify-content:center;
+
+}
+.frame-title{
+
+}
+.frame-img{
+    
 }
