@@ -79,10 +79,13 @@ nav {
 }
 .frame-1st {
   max-width: 520px;
-  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: left;
 }
 .frame-1st p {
   font-size: 24px;
+  text-align: left;
 }
 .frame-title {
   font-size: 42px;
@@ -136,10 +139,35 @@ nav {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.ready-section{
+  
+  border: 2px solid black;
+  margin-top : 137px;
+  /* align-items: center;  */
+}
+.ready-content{
+  text-align: center;
+  
+}
+.ready-content-title{
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.img-ready{
+      margin-top: 20px;
+  
+}
+.img-r{
+  border-radius: 30px;
+
+}
 /* foot */
 .section-rating {
   align-items: center;
   gap: 50px;
+  margin-top: 137px;
 }
 
 .section-rating h1 {
@@ -148,8 +176,11 @@ nav {
   font-weight: bold;
 }
 .p-box-title {
-  align-items: top left;
+  /* align-items: top left; */
   gap: 8px;
+}
+.left{
+  text-align: left;
 }
 .p-box-photo {
   width: 40px;
@@ -162,10 +193,6 @@ nav {
 }
 .p-box-photo-name {
   display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-
-  /* justify-items: center; */
   height: 40px;
   border: 1px solid;
 }
@@ -174,7 +201,7 @@ nav {
   display: flex;
   gap: 20px;
   height: 243px;
-  align-items: center;
+  /* align-items: center; */
 }
 .for-form {
   display: flex;
@@ -222,29 +249,39 @@ footer li a{
   color:rgba(137, 135, 161, 1);
 } */
 footer{
-  padding-left: 600px;
- max-width: 531px;
-  text-align: center; 
-  /* align-items: center; */
+  max-width: auto;
+  background-color: bisque;
+  height: 428px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
 }
 
-footer a,p{
+footer p{
   text-decoration: none;
   color: rgba(137, 135, 161, 1);
+  /* text-align: center; */
+}
+footer a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+  align-items: center;
 }
 .logo{
+  text-align: center;
   font-size: 100px;
   font-weight: bold;
   color: #4e47ff;
 }
 .menu{
-  width: 401px;
-  height: 24px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+ 
+  /* width: 401px;
+  height: 24px; */
+  align-items: center;
 }
 
-.ready-section{
-  padding: 150px 71px;
-  border: 2px solid black;
-  margin-top : 137px; 
-}
