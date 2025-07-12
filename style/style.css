@@ -20,16 +20,19 @@
   border-radius: 10px;
   border-style: none;
 }
-.container {
-  max-width: 1140px;
-  margin: auto;
-  /* background-image: linear-gradient(to bottom right, rgba(208, 212, 243, 0.211), rgb(221, 225, 226)) */
-}
 header {
+    
   background-image: url(../Assets/Hero-bg.png);
   background-size: cover;
   height: 698px;
+  
 }
+.container {
+  max-width: 1140px;
+  margin: auto;
+/* background-image: linear-gradient(to bottom right, rgba(208, 212, 243, 0.211), rgb(221, 225, 226)) */
+}
+
 .dark2 {
   color: rgba(37, 36, 50, 0.5);
 }
@@ -202,8 +205,46 @@ nav {
   color: rgba(214, 221, 237, 1);
   border-radius: 10px;
 }
+/*
+.footer-title p{
+  color:rgba(137, 135, 161, 1) ;
+}
+.footer-title h1{
+  font-weight: bold;
+  font-size: 100px;
+  color: #4e47ff;
+}
+footer li {
+  list-style: none;
+}
+footer li a{
+  text-decoration: none;
+  color:rgba(137, 135, 161, 1);
+} */
+footer{
+  padding-left: 600px;
+ max-width: 531px;
+  text-align: center; 
+  /* align-items: center; */
+}
 
-.footer-all{
-  
-  padding: 104px 455px;
+footer a,p{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+}
+.logo{
+  font-size: 100px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+.menu{
+  width: 401px;
+  height: 24px;
+  text-align: center;
+}
+
+.ready-section{
+  padding: 150px 71px;
+  border: 2px solid black;
+  margin-top : 137px; 
 }
