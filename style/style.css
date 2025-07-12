@@ -23,6 +23,7 @@
 .container {
   max-width: 1140px;
   margin: auto;
+  /* background-image: linear-gradient(to bottom right, rgba(208, 212, 243, 0.211), rgb(221, 225, 226)) */
 }
 header {
   background-image: url(../Assets/Hero-bg.png);
@@ -133,15 +134,15 @@ nav {
   background-color: rgba(255, 255, 255, 0.5);
 }
 /* foot */
-.section-rating{
+.section-rating {
   align-items: center;
   gap: 50px;
 }
 
-.section-rating h1{
- text-align: center;
- font-size: 42px;
- font-weight: bold;
+.section-rating h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
 }
 .p-box-title {
   align-items: top left;
@@ -155,7 +156,6 @@ nav {
   display: flex;
   flex-direction: row;
   row-gap: 12px;
- 
 }
 .p-box-photo-name {
   display: flex;
@@ -167,44 +167,43 @@ nav {
   border: 1px solid;
 }
 
-.section-rating-all{
+.section-rating-all {
   display: flex;
   gap: 20px;
   height: 243px;
   align-items: center;
- 
-
-
 }
-.for-form{
+.for-form {
   display: flex;
   flex-direction: column;
   /* margin-left: 115px; */
   /* padding: 50px; */
   gap: 19px;
- 
-  
 }
-.foot-section{
+.foot-section {
   display: flex;
   /* height: 632px; */
   /* padding-right:71px 0 71px 0; */
   justify-content: space-between;
- align-items: center;
- margin-top: 94px;
+  align-items: center;
+  margin-top: 94px;
 }
 
-.btn1{
-  padding: 19px 101px ;
+.btn1 {
+  padding: 19px 101px;
 }
-.foot-section-title{
+.foot-section-title {
   font-size: 97px;
   font-weight: bold;
-  
 }
-.input{
-  padding: 32px 20px ;
+.input {
+  padding: 32px 20px;
   width: 497px;
   color: rgba(214, 221, 237, 1);
   border-radius: 10px;
+}
+
+.footer-all{
+  
+  padding: 104px 455px;
 }
